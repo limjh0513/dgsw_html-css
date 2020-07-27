@@ -1,0 +1,33 @@
+.main{
+    border: 1px solid gray;
+    margin: auto;
+    width: 300px;
+    height: 550px;
+    border-radius: 10px;
+    text-align:center;
+    overflow:hidden;
+}
+.picture{
+    width:300px;
+    height:200px;
+    background-color: #9FF781;
+    text-align:center;
+}
+.pic{
+    border-radius: 70%;
+    margin-top : 50px;
+}
+.name{
+    border-bottom: 2px solid gray;
+    margin: 15px;
+    font-family: 'Mountains of Christmas', cursive;
+    color: #BCA9F5;
+    font-size: 25px;
+}
+.intro{
+    text-align : center;
+    overflow-y:scroll;
+    height:220px;
+    padding-right:25px;
+    padding-left:25px;
+}

@@ -1,0 +1,38 @@
+body{
+width:440px;
+}
+header, nav, section, article, aside, footer{
+display:block;
+width:400px;
+margin:4px;
+padding:4px;
+background-color:#dbdbdb;
+text-align:center;
+border-radius: 5px;
+}
+section{
+float:left;
+width:280px;
+height:200px;
+}
+article{
+width:264px;
+height:77px;
+line-height: 77px;
+border-radius: 5px;
+}
+.article{
+    background-color:skyblue;
+}
+#article{
+    background-color:hotpink;
+}
+aside{
+float:left;
+width:104px;
+height:200px;
+line-height: 200px;
+}
+footer{
+overflow:hidden;
+}
