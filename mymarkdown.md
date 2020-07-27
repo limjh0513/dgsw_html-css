@@ -30,4 +30,8 @@
 
 [표시할 내용](http://naver.com)
 
+***
+
+---
+
 ![이미지](http://blogfiles.naver.net/MjAxOTExMjVfMTg3/MDAxNTc0NjY1NTgzNzYy.ALIIa5i6hUVmGw72vJQB7J-6hdKtqbw9xrjIxexDDeUg.DfxG0I7sQI1WjjnzGAo2NhG_Pq7SsZXnSVzdDJXhyA8g.JPEG.daegu_news/KakaoTalk_20191125_160211795.jpg)
