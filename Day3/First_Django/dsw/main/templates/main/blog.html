@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+</head>
+<body>
+    <h1>여기는 블로그</h1>
+    {% for list in postlist %}
+    <ul>
+        <li>{{list.postname}}</li>
+        <li>{{list.contents}}</li>
+    </ul>
+    {% endfor %}
+</body>
+</html>
