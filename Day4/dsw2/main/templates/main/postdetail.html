@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>세부 내용</title>
+</head>
+<body>
+    <h1>{{ b.postname }}</h1>
+    <p>{{ b.contents }}</p>
+    {% if b.mainphoto%}
+    <img src="{{b.mainphoto.url}}" alt=""><br>
+    {% endif%}
+    <a href="/blog">목록으로 돌아가기</a><br>
+    <a href="{{b.pk}}/delete/">글 삭제</a>
+</body>
+</html>

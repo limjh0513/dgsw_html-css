@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BLog</title>
+</head>
+<body>
+    <h1>여기는 블로그 페이지입니다.</h1>
+    <a href="/">메인 페이지 바로가기</a>
+
+    {% for i in a %}
+    <ul>
+        <li><a href="{{i.pk}}">{{ i.postname }}</a></li>
+    </ul>
+    {% endfor %}
+    <a href="newpost/">작성</a>
+</body>
+</html>
