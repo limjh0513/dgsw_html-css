@@ -2,10 +2,11 @@ from . import views
 from django.urls import path
 from django.conf.urls.static import static
 from django.conf import settings
-urlpatterns=[
+
+urlpatterns = [
     path('', views.index),
     path('blog/', views.blog),
-    path('blog/<pk>',views.detailpost),
+    path('blog/<pk>', views.detailpost),
     path('blog/newpost/', views.newpost),
     path('blog/<pk>/delete/', views.remove_post),
 ]
