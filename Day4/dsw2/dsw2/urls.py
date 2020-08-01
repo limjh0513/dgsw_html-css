@@ -3,5 +3,10 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+<<<<<<< Updated upstream
     path('', include('main.urls')),
 ]
+=======
+    path('',include('main.urls')),
+]
+>>>>>>> Stashed changes
